@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
+.boundary{
+    height:30rem ;
+    width:30rem ;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px #F35160, -15px -15px 20px #F35160 ;
+
+}
+
+
+
+
+.head{
+    height: 100px;
+    width: 30rem;
+    background-image: linear-gradient(to right,#F15268, #BE74ED, #1EBCEA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+h1{
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+    
+}
+
+
+
+.input{
+    display: flex;
+   
+}
+
+
+
+input{
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+
+.password{
+    margin-top: 30px;
+}
+
+.fontf{
+    font-family: cursive;
+}
+
+
+
+/* button part starts from here  */
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    
+}
+
+.login{
+    background-image: linear-gradient(to right,#F15268, #BE74ED, #1EBCEA);
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    font-family: cursive;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 20px;
+}
